@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>WAGMI — We're All Gonna Make It</title>
+  <meta name="description" content="WAGMI Meme Coin on Solana. We're All Gonna Make It." />
+
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    body {
+      background: radial-gradient(circle at top, #1a2f1f, #0b0f0c);
+      color: #ffffff;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 960px;
+      width: 100%;
+      background: rgba(255,255,255,0.04);
+      border-radius: 22px;
+      padding: 50px 30px;
+      box-shadow: 0 0 60px rgba(0,255,120,0.18);
+      text-align: center;
+    }
+
+    /* LOGO */
+    .logo {
+      width: 340px;
+      margin: 0 auto 10px;
+      filter: drop-shadow(0 0 20px rgba(43,255,136,0.6));
+    }
+
+    /* COIN */
+    .coin {
+      width: 180px;
+      margin: 20px auto 30px;
+      animation: float 4s ease-in-out infinite;
+      filter: drop-shadow(0 20px 40px rgba(0,0,0,0.4));
+    }
+
+    @keyframes float {
+      0% { transform: translateY(0px); }
+      50% { transform: translateY(-12px); }
+      100% { transform: translateY(0px); }
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 8px 16px;
+      background: rgba(0,255,120,0.15);
+      color: #2bff88;
+      border-radius: 999px;
+      font-size: 14px;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: 56px;
+      font-weight: 800;
+      letter-spacing: 2px;
+      margin-bottom: 10px;
+      background: linear-gradient(90deg, #2bff88, #eaff5a);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    h2 {
+      font-size: 22px;
+      font-weight: 600;
+      opacity: 0.9;
+      margin-bottom: 25px;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 1.7;
+      opacity: 0.85;
+      max-width: 720px;
+      margin: 0 auto 40px;
+    }
+
+    .buttons {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+      margin-bottom: 50px;
+    }
+
+    .btn {
+      padding: 14px 28px;
+      border-radius: 14px;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 15px;
+      transition: all 0.25s ease;
+    }
+
+    .btn-primary {
+      background: linear-gradient(135deg, #2bff88, #eaff5a);
+      color: #0b0f0c;
+    }
+
+    .btn-primary:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 12px 28px rgba(43,255,136,0.45);
+    }
+
+    .btn-secondary {
+      border: 2px solid rgba(255,255,255,0.25);
+      color: #ffffff;
+    }
+
+    .btn-secondary:hover {
+      background: rgba(255,255,255,0.1);
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+
+    .card {
+      background: rgba(255,255,255,0.06);
+      border-radius: 16px;
+      padding: 25px;
+      box-shadow: inset 0 0 0 1px rgba(255,255,255,0.05);
+    }
+
+    .card h3 {
+      font-size: 18px;
+      margin-bottom: 8px;
+      color: #2bff88;
+    }
+
+    .card span {
+      font-size: 14px;
+      opacity: 0.85;
+    }
+
+    footer {
+      margin-top: 60px;
+      font-size: 13px;
+      opacity: 0.5;
+    }
+
+    @media (max-width: 600px) {
+      h1 { font-size: 42px; }
+      .coin { width: 150px; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+
+    <img src="wagmi-coin.png" alt="WAGMI Coin" class="coin">
+
+    <div class="badge">🚀 Solana Meme Coin</div>
+
+    <!-- COIN IMAGE -->
+    <img src="wagmi-coin.png" alt="WAGMI Coin" class="coin">
+    <!-- LOGO -->
+
+    <h1>WAGMI</h1>    <img src="wagmi-logo.png" alt="WAGMI Logo" class="logo">
+    <h2>We're All Gonna Make It</h2>
+
+    <p>
+      WAGMI is a pure meme coin powered by belief, vibes, and collective hopium.
+      No roadmap. No promises.
+      <strong>Just vibes.</strong>
+    </p>
+
+    <div class="buttons">
+      <a href="#" class="btn btn-primary">Buy on Pump.fun</a>
+      <a href="#" class="btn btn-secondary">Twitter / X</a>
+      <a href="#" class="btn btn-secondary">Telegram</a>
+    </div>
+
+    <div class="grid">
+      <div class="card">
+        <h3>💎 Total Supply</h3>
+        <span>1,000,000,000 WAGMI</span>
+      </div>
+      <div class="card">
+        <h3>🔥 Tax</h3>
+        <span>0% Buy / 0% Sell</span>
+      </div>
+      <div class="card">
+        <h3>🔒 Liquidity</h3>
+        <span>Pump.fun Bonding Curve</span>
+      </div>
+      <div class="card">
+        <h3>🧠 Utility</h3>
+        <span>Memes, Belief, Community</span>
+      </div>
+    </div>
+
+    <footer>
+      © 2025 WAGMI — We're All Gonna Make It.
+    </footer>
+
+  </div>
+
+</body>
+</html>
