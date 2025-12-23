@@ -207,6 +207,59 @@
   transform: scale(1.05);
   box-shadow: 0 0 20px rgba(43,255,136,0.6);
 }
+/* ===== PHASE / ROADMAP ===== */
+.phases {
+  margin-top: 60px;
+}
+
+.phases h2 {
+  margin-bottom: 30px;
+  font-size: 28px;
+  background: linear-gradient(90deg, #2bff88, #eaff5a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.phase-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.phase-card {
+  background: rgba(255,255,255,0.06);
+  border-radius: 18px;
+  padding: 25px;
+  text-align: left;
+  box-shadow: 0 0 25px rgba(43,255,136,0.15);
+  transition: transform 0.25s ease;
+}
+
+.phase-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 0 40px rgba(43,255,136,0.35);
+}
+
+.phase-title {
+  font-size: 16px;
+  font-weight: 800;
+  color: #2bff88;
+  margin-bottom: 8px;
+}
+
+.phase-text {
+  font-size: 15px;
+  line-height: 1.6;
+  opacity: 0.9;
+}
+
+.phase-hype {
+  margin-top: 40px;
+  font-size: 20px;
+  font-weight: 800;
+  color: #eaff5a;
+  text-shadow: 0 0 20px rgba(234,255,90,0.6);
+}
 
   </style>
   
@@ -284,6 +337,47 @@
         <span>Memes, Belief, Community</span> 
       </div>
     </div>
+<!-- PHASE SECTION -->
+<div class="phases">
+  <h2>🚀 WAGMI Phases</h2>
+
+  <div class="phase-grid">
+    <div class="phase-card">
+      <div class="phase-title">Phase 1</div>
+      <div class="phase-text">
+        The New Narrative Meme.<br>
+        Establish WAGMI as a fresh, viral meme with a strong identity.
+      </div>
+    </div>
+
+    <div class="phase-card">
+      <div class="phase-title">Phase 2</div>
+      <div class="phase-text">
+        Building a Great Community.<br>
+        Grow believers, creators, and true WAGMI degens.
+      </div>
+    </div>
+
+    <div class="phase-card">
+      <div class="phase-title">Phase 3</div>
+      <div class="phase-text">
+        Reaching a Market Cap of<br>
+        <strong>$1,000,000,000</strong>.
+      </div>
+    </div>
+
+    <div class="phase-card">
+      <div class="phase-title">Phase 4</div>
+      <div class="phase-text">
+        Being present on all major CEXs to strengthen WAGMI’s global position.
+      </div>
+    </div>
+  </div>
+
+  <div class="phase-hype">
+    LET’S GET ROCK SO WE CAN GO TO BINANCE! 🔥🚀
+  </div>
+</div>
 
     <footer>
       © 2025 WAGMI — We're All Gonna Make It.   
